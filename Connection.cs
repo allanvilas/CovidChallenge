@@ -12,7 +12,7 @@ namespace ChallengeInsert
 {
     public class Connection
     {
-        string ConnString = "Host=64.176.212.88;Port=5432;Username=app;Password=insertinfondatabase;Database=covid_challenge";
+        string ConnString = "PleaseContatcMe";
         public void InsertOnDB(Data[] data, List<string> New_Hashs)
         {
             Console.WriteLine("[CNN]: Executing insert function");
